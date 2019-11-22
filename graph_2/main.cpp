@@ -23,7 +23,7 @@ int min(vector<int> v) {
 int main() {
 	Point tl{ 100, 100 }; // tl is Top-Left corner of our window
 	Point origo{ 40, 255 };
-	Simple_window win(tl, 400, 300, "Lecture 2 Example graph_2");
+	Simple_window win(tl, 400, 300, "Example graph_2");
 	Axis xa(Axis::x, origo, 330, 11, "Month");
 	win.attach(xa); // attach xa to the window, win
 	xa.set_color(Color::black);
@@ -55,7 +55,7 @@ int main() {
 		int yCoord = origo.y - (210 * (temp - totalMin)) / ySpan;
 		oplMin.add(Point{ xCoord, yCoord });
 	}
-	oplMin.set_color(Color::blue);
+	oplMin.set_color(Color::blue);  
 	win.attach(oplMin);
 
 	win.wait_for_button();
