@@ -14,4 +14,4 @@ siste nytt fra PC1-webinterface
 
 skriver noe på PC2, oppdatert
 
-fra PC2 **************
+fra PC2 *********
